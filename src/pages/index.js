@@ -10,7 +10,7 @@ class RootIndex extends React.Component {
     return (
       <Layout>
         <div>
-          got here
+      
         </div>
       </Layout>
     )
