@@ -25,16 +25,16 @@ exports.createPages = ({ graphql, actions }) => {
           reject(result.errors)
         }
 
-        const albums = result.data.allContentfulAlbum.edges
+        /*const albums = result.data.allContentfulAlbum.edges
         albums.forEach(post => {
           createPage({
             path: `/album/${post.node.albumName}/`,
-            component: albumPost,
+            component: albumView,
             context: {
               albumName: post.node.albumName,
             },
           })
-        })
+        })*/
       })
     )
   })

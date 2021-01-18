@@ -24,10 +24,15 @@ body {
     background-color:white;
     position:fixed;
     /* margin:0px; */
-    margin-bottom:300px;
+    /* margin-bottom:300px; */
+}
+.header:hover {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
 }
 .marquee3k {
     font-size:30px;
+    margin-bottom:20px;
 }
 
 

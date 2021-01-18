@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 import get from 'lodash/get'
 import Layout from '../components/layout'
 import AlbumView from '../templates/album-view'
-import Marquee3k from 'marquee3000';
+// import Marquee3k from 'marquee3000';
 
 class RootIndex extends React.Component {
   render() {    
@@ -18,9 +18,9 @@ class RootIndex extends React.Component {
       <div className="header">
           <div className="marquee3k" 
             data-speed="1.4" 
-            data-reverse="bool" 
-            data-pausable="bool">
-            <h1>&nbsp;FAVORITE ALBUMS OF 2020 //</h1>
+            data-reverse="false" 
+            data-pausable="false">
+            <h1>&nbsp;FAVORITE ALBUMS OF 2020 //&nbsp;</h1>
         </div>
       </div>
       <div className="test">
