@@ -15,11 +15,12 @@ body {
     padding-top:140px;
 }
 .header {
-    z-index:1;
+    z-index:999;
     border-bottom: 1px solid black;
     font-family: 'Hanken';
-    height:140px;
+    height:110px;
     padding:0px;
+    margin-top:0px;
     width:100vw;
     background-color:white;
     position:fixed;
@@ -31,8 +32,8 @@ body {
     filter: invert(100%);
 }
 .marquee3k {
-    font-size:30px;
-    margin-bottom:20px;
+    font-size:26px;
+    margin-top:-10px;
 }
 
 

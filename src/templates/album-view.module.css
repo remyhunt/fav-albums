@@ -2,6 +2,8 @@
     width:30vw;
     margin-left:20vw;
     margin-top:10vh;
+    position:absolute;
+    z-index:1;
 }
 
 .albumCoverContainer {
@@ -31,9 +33,9 @@
     transform: rotate(-90deg);
     /* -moz-transform-origin: 100% 100%; */
     /* -o-transform-origin: 100% 100%; */
-    transform-origin: 40% 150%;
+    transform-origin: 34% 132%;
     height:300px;
-        color:transparent;
+    color:transparent;
     background-color:white;
     /* margin: 50vh 0 0 -10vw; */
     position:absolute;
@@ -42,9 +44,22 @@
     padding:0px;
     border-bottom:1px solid black;
 }
+.albumBackdrop {
+    background-image: linear-gradient(315deg, #c73e1d 0%, #a23b72 37%, #2e86ab 100%);
+    /* transform-origin: 10% 20%; */
+    width:100%;
+    height:100%;
+    /* position:absolute;     */
+    margin-left:12vw;
+    margin-top:5vh;
+    width:30vw;
+    height:30vw;
+    /* margin:50px; */
+
+}
 .albumName h1 {    
-    font-size:130px;
-    padding-top:35px;
+    font-size:100px;
+    padding-top:95px;
 }
 .albumContainer {
     /* display:block; */

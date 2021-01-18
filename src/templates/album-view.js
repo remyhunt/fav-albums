@@ -20,7 +20,10 @@ class albumViewTemplate extends React.Component {
 
           </div>
           <div className={albumViewStyles.albumCoverContainer}>
-            <img className={albumViewStyles.albumCover} alt="album cover" src={this.props.album.albumCover.file.url}/>
+              <img className={albumViewStyles.albumCover} alt="album cover" src={this.props.album.albumCover.file.url}/>
+            
+              <div className={albumViewStyles.albumBackdrop} alt="album cover">
+             </div>
           </div>
         </div>
       </Layout>
