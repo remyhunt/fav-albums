@@ -1,4 +1,50 @@
 html {
     width:100vw;
     height:100vh;
+    
+}
+p {
+    margin: 0;
+}
+body {
+    padding:0px;
+    margin:0px;
+    /* max-width:100vw; */
+}
+.test { 
+    padding-top:140px;
+}
+.header {
+    z-index:1;
+    border-bottom: 1px solid black;
+    font-family: 'Hanken';
+    height:140px;
+    padding:0px;
+    width:100vw;
+    background-color:white;
+    position:fixed;
+    /* margin:0px; */
+    margin-bottom:300px;
+}
+.marquee3k {
+    font-size:30px;
+}
+
+
+
+
+
+@font-face {
+    font-family: "Hanken";
+    src: url("../fonts/HankenGrotesk-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Fira";
+    src: url("../fonts/FiraCode-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Sectra";
+    src: url("../fonts/GT-Sectra-Fine-Bold.ttf") format("truetype");
 }

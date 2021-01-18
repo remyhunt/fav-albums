@@ -9,9 +9,19 @@ class albumViewTemplate extends React.Component {
   render() {
     return (
       <Layout>
-        <div>
-          <p>{this.props.album.albumName} - {this.props.album.artistName}</p> 
-          <img class={albumViewStyles.albumCover} src={this.props.album.albumCover.file.url}/>
+        <div className={albumViewStyles.albumName}>
+            <h1> {this.props.album.albumName} </h1>
+        </div>
+        <div className={albumViewStyles.albumContainer}>
+          <div className={albumViewStyles.albumDescription}>
+          <p> {this.props.album.artistName} </p>
+          <p> {this.props.album.runTime} </p>
+          <p> {this.props.album.genre} </p>
+
+          </div>
+          <div className={albumViewStyles.albumCoverContainer}>
+            <img className={albumViewStyles.albumCover} alt="album cover" src={this.props.album.albumCover.file.url}/>
+          </div>
         </div>
       </Layout>
     )
