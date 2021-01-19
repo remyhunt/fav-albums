@@ -14,16 +14,13 @@ class albumViewTemplate extends React.Component {
         </div>
         <div className={albumViewStyles.albumContainer}>
           <div className={albumViewStyles.albumDescription}>
-          <p> {this.props.album.artistName} </p>
-          <p> {this.props.album.runTime} </p>
-          <p> {this.props.album.genre} </p>
-
+            <p className={albumViewStyles.artistName}> {this.props.album.artistName} </p>
+            <p> {this.props.album.runTime} </p>
+            <p> {this.props.album.genre} </p>
           </div>
-          <div className={albumViewStyles.albumCoverContainer}>
+          <div className={albumViewStyles.albumBackdrop} alt="album cover backdrop"></div>
+          <div className={albumViewStyles.albumCoverContainer}>              
               <img className={albumViewStyles.albumCover} alt="album cover" src={this.props.album.albumCover.file.url}/>
-            
-              <div className={albumViewStyles.albumBackdrop} alt="album cover">
-             </div>
           </div>
         </div>
       </Layout>

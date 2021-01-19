@@ -23,7 +23,7 @@ class RootIndex extends React.Component {
             <h1>&nbsp;FAVORITE ALBUMS OF 2020 //&nbsp;</h1>
         </div>
       </div>
-      <div className="test">
+      <div className="albumRepeater">
           {albums.map(({node}) => {
             return(
               <AlbumView key={node.albumName} album={node} />
